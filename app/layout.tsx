@@ -59,6 +59,8 @@ export default function RootLayout({
 
         <div className="layout-sm relative z-10 grid gap-y-8 px-4 xl:layout-xl xl:gap-x-8 xl:px-0 [&>*]:col-start-2 xl:[&>*]:col-start-3">
          {children}
+
+	 <div className="mt-6" />
 	</div>
       </body>
     </html>

@@ -1,1 +1,43 @@
-export const intro = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+export interface ImgVid {
+	id: number
+	alt: string
+	src: string
+}
+
+export const allImgVids: ImgVid[] = [
+	{
+	    id: 1, 
+	    alt: 'Kelsee 1',
+	    src: '/kelsee-1.jpg',
+	},
+	{
+	    id: 6, 
+	    alt: 'Kelsee 6',
+	    src: '/kelsee-6.jpg',
+	},
+	{
+	    id: 7, 
+	    alt: 'Kelsee 7',
+	    src: '/kelsee-7.jpg',
+	},
+	{
+	    id: 8, 
+	    alt: 'Kelsee 8',
+	    src: '/kelsee-8.jpg',
+	},
+	{
+ 	    id: 9,
+	    alt: 'Kelsee 9',
+	    src: '/kelsee-9.jpg',
+	},
+	{
+	    id: 10,
+	    alt: 'Kelsee 10',
+	    src: '/kelsee-10.jpg',
+	},
+	{
+	    id: 11,
+	    alt: 'Kelsee 11',
+	    src: '/kelsee-11.jpg',
+	}
+]
