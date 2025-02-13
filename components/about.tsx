@@ -3,13 +3,23 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import clsx from 'clsx'
-// import { motion } from 'motion/react'
 
 export const About = () => {
 	const [isLoading, setIsLoading] = useState(true)
 
 	return (
-	 <section className="bg-[#B3D8A8] rounded-[45px] p-10 md:p-8 grid md:grid-cols-[1fr,auto] gap-6 xl:mb-64 xl:mt-8">
+	<>
+	<div className="absolute top-[140px] xl:top-[463px]">
+	  <Image
+		src="/monkey-1.png"
+		alt="Hero Image"
+		width={200}
+		height={200}
+	  	onLoad={() => setIsLoading(false)}
+		className="-rotate-[10deg] w-[80px] h-[80px] sm:w-[170px] sm:h-[170px] xl:w-[200px] xl:h-[200px]"
+	   />
+	</div>
+	 <section className="bg-[#B3D8A8] z-10 rounded-[45px] p-10 md:p-8 grid md:grid-cols-[1fr,auto] gap-6 xl:mb-64 xl:mt-8">
           <div className="space-y-4">
             <h2 className="font-oswald tracking-wider text-sm">HELLO!</h2>
             <div className="font-oswald text-xs tracking-wide space-y-4">
@@ -32,6 +42,7 @@ export const About = () => {
 	      onLoad={() => setIsLoading(false)}
 	    />
           </div>
-        </section>
+         </section>
+	</>
     )
 }

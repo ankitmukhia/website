@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Sansita, Noto_Sans, Merriweather, Oswald } from 'next/font/google'
 import "./globals.css";
+import { Footer } from '../components/footer'
 
 const sansita = Sansita({
   weight: ["900"],
@@ -60,7 +61,9 @@ export default function RootLayout({
         <div className="layout-sm relative z-10 grid gap-y-8 px-4 xl:layout-xl xl:gap-x-8 xl:px-0 [&>*]:col-start-2 xl:[&>*]:col-start-3">
          {children}
 
-	 <div className="mt-6" />
+	 <div className="mt-6 mb-4 text-center">
+	  <Footer />
+	 </div>
 	</div>
       </body>
     </html>

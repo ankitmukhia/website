@@ -1,6 +1,18 @@
+import Image from 'next/image'
+
 export const Education = () => {
 	return (
-		<section className="bg-[#F3CCF3] rounded-[45px] p-6 md:p-8">
+	     <>
+	       <div className="absolute top-[50%] left-50 xl:top-[1100px] xl:right-[400px]">
+	       	  <Image
+	       	     src="/monkey-3.png"
+	             alt="Hero Image"
+	             width={150}
+	             height={150}
+	             className="-rotate-45 xl:-rotate-[200deg] w-[80px] h-[80px] sm:w-[150px] sm:h-[150px] xl:w-[150px] xl:h-[150px]"
+	          />
+	        </div>
+		<section className="z-10 bg-[#F3CCF3] rounded-[45px] p-6 md:p-8">
 			<h2 className="text-4xl md:text-5xl mb-8 font-weather flex items-center gap-2">
 				Education 
 			</h2>
@@ -26,5 +38,6 @@ export const Education = () => {
 				</div>
 			</div>
 		</section>
+	      </>
 	)
 }

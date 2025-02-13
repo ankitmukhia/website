@@ -4,6 +4,7 @@ import { Hobbies } from '@/components/hobbies'
 import { Location } from '@/components/location'
 import { About } from '@/components/about'
 import { InfiniteCarousel } from '@/components/infinite-carousel' 
+import { HeartIcon } from '@heroicons/react/24/solid'
 
 // crypto monkey as well 
 
@@ -44,7 +45,7 @@ export default function Home() {
 	   className="-rotate-[40deg]"
 	 />
 	</div>
-         <div className="absolute left-[10%] bottom-[20%]">
+        <div className="absolute left-[10%] bottom-[20%]">
 	   <Image 
 	     src="/seashell.png"
 	     alt="Hero Image" 
@@ -78,15 +79,43 @@ export default function Home() {
 	<Location />
       </div>
 
-      <section className="bg-[#F0F0D7] mt-12 rounded-[45px] p-6 md:p-8">
-	 <div className="space-y-4 overflow-hidden">
-	  <h2 className="text-4xl md:text-5xl mb-8 font-sansita flex items-center gap-2">
-	    Here are some of my Pictures 
-	  </h2>
+      <>
+      <div className="absolute bottom-[505px] right-10 xl:bottom-[490px] xl:right-[500px]">
+      	<Image
+      	  src="/monkey-4.png"
+      	  alt="Hero Image"
+          width={150}
+          height={150}
+          className="-scale-x-100 w-[80px] h-[80px] sm:w-[170px] sm:h-[170px] xl:w-[150px] xl:h-[150px]"
+      />
+      </div>
+      <div className="absolute bottom-[20%] right-[40%] xl:bottom-[24%] xl:right-[40%]">
+        <HeartIcon 
+	  className="h-5 w-5 text-rose-500/90"
+        />
+      </div>
 
-	  <InfiniteCarousel direction="left" speed="normal" pauseOnHover={true} /> 
-	 </div>
-      </section>
+      <div className="absolute bottom-[465px] right-[100px] xl:bottom-[500px] xl:right-[36%]">
+        <HeartIcon 
+	  className="h-5 w-5 text-rose-500/80"
+        />
+      </div>
+
+      <div className="absolute bottom-[21%] right-28 xl:bottom-[26%] xl:right-[35%]">
+        <HeartIcon 
+	  className="h-5 w-5 text-rose-500/90"
+        />
+      </div>
+       <section className="xl:relative bg-[#F0F0D7] mt-12 rounded-[45px] p-6 md:p-8">
+	  <div className="space-y-4 overflow-hidden">
+	   <h2 className="text-4xl md:text-5xl mb-8 font-sansita flex items-center gap-2">
+	     Here are some of my Pictures 
+	   </h2>
+
+	   <InfiniteCarousel direction="left" speed="normal" pauseOnHover={true} /> 
+	  </div>
+       </section>
+      </>
     </div>
   );
 }
