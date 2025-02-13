@@ -3,13 +3,13 @@ import Image from 'next/image'
 export const Education = () => {
 	return (
 	     <>
-	       <div className="absolute top-[50%] left-50 xl:top-[1100px] xl:right-[400px]">
+	       <div className="absolute top-[50%] right-[10%] sm:top-[1070px] sm:right-[580px] xl:top-[1100px] xl:right-[400px]">
 	       	  <Image
 	       	     src="/monkey-3.png"
 	             alt="Hero Image"
 	             width={150}
 	             height={150}
-	             className="-rotate-45 xl:-rotate-[200deg] w-[80px] h-[80px] sm:w-[150px] sm:h-[150px] xl:w-[150px] xl:h-[150px]"
+	             className="rotate-45 -scale-x-100 xl:-rotate-[200deg] w-[80px] h-[80px] sm:w-[100px] sm:h-[100px] xl:w-[150px] xl:h-[150px]"
 	          />
 	        </div>
 		<section className="z-10 bg-[#F3CCF3] rounded-[45px] p-6 md:p-8">

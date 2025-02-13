@@ -19,7 +19,7 @@ export const InfiniteCarousel = ({ className, speed = "fast", direction = "left"
 
 	useEffect(() => {
 		addAnimation();
-	}, [addAnimation]);
+	}, []);
 	function addAnimation() {
 		if (containerRef.current && scrollerRef.current) {
 			const scrollerContent = Array.from(scrollerRef.current.children);

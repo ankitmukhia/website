@@ -5,13 +5,13 @@ import Image from 'next/image'
 export const Hobbies = () => {
 	return (
 	       <>
-	       <div className="absolute top-[610px] right-0 xl:top-[855px] xl:left-[750px]">
+	       <div className="absolute top-[610px] right-0 sm:top-[550px] sm:right-[100px] xl:top-[855px] xl:left-[750px]">
 	       	  <Image
 	       	     src="/monkey-2.png"
 	             alt="Hero Image"
 	             width={150}
 	             height={150}
-	             className="rotate-[50deg] -scale-x-100 w-[80px] h-[80px] sm:w-[170px] sm:h-[170px] xl:w-[150px] xl:h-[150px]"
+	             className="rotate-[50deg] -scale-x-100 w-[80px] h-[80px] sm:w-[100px] sm:h-[100px] xl:w-[150px] xl:h-[150px]"
 	        />
 	       </div>
 		 <section className="z-10 bg-[#F4EAE0] rounded-[45px] p-6 md:p-8 xl:-mt-56">

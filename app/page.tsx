@@ -80,28 +80,28 @@ export default function Home() {
       </div>
 
       <>
-      <div className="absolute bottom-[505px] right-10 xl:bottom-[490px] xl:right-[500px]">
+      <div className="absolute bottom-[505px] right-10 sm:right-[200px] sm:bottom-[536px] xl:bottom-[490px] xl:right-[500px]">
       	<Image
       	  src="/monkey-4.png"
       	  alt="Hero Image"
           width={150}
           height={150}
-          className="-scale-x-100 w-[80px] h-[80px] sm:w-[170px] sm:h-[170px] xl:w-[150px] xl:h-[150px]"
+          className="-scale-x-100 w-[80px] h-[80px] sm:w-[100px] sm:h-[100px] xl:w-[150px] xl:h-[150px]"
       />
       </div>
-      <div className="absolute bottom-[20%] right-[40%] xl:bottom-[24%] xl:right-[40%]">
+      <div className="absolute bottom-[20%] right-[40%] sm:bottom-[22%] xl:bottom-[24%] xl:right-[40%]">
         <HeartIcon 
 	  className="h-5 w-5 text-rose-500/90"
         />
       </div>
 
-      <div className="absolute bottom-[465px] right-[100px] xl:bottom-[500px] xl:right-[36%]">
+      <div className="absolute bottom-[465px] right-[100px] sm:bottom-[550px] sm:right-[300px] xl:bottom-[500px] xl:right-[36%]">
         <HeartIcon 
 	  className="h-5 w-5 text-rose-500/80"
         />
       </div>
 
-      <div className="absolute bottom-[21%] right-28 xl:bottom-[26%] xl:right-[35%]">
+      <div className="absolute bottom-[21%] right-28 sm:bottom-[22%] sm:right-[30%] xl:bottom-[26%] xl:right-[35%]">
         <HeartIcon 
 	  className="h-5 w-5 text-rose-500/90"
         />
