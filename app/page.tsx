@@ -84,7 +84,7 @@ export default function Home() {
 	    Here are some of my Pictures 
 	  </h2>
 
-	  <InfiniteCarousel />
+	  <InfiniteCarousel direction="left" speed="normal" pauseOnHover={true} /> 
 	 </div>
       </section>
     </div>

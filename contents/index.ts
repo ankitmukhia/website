@@ -11,32 +11,32 @@ export const allImgVids: ImgVid[] = [
 	    src: '/kelsee-1.jpg',
 	},
 	{
-	    id: 6, 
+	    id: 2, 
 	    alt: 'Kelsee 6',
 	    src: '/kelsee-6.jpg',
 	},
 	{
-	    id: 7, 
+	    id: 3, 
 	    alt: 'Kelsee 7',
 	    src: '/kelsee-7.jpg',
 	},
 	{
-	    id: 8, 
+	    id: 4, 
 	    alt: 'Kelsee 8',
 	    src: '/kelsee-8.jpg',
 	},
 	{
- 	    id: 9,
+ 	    id: 5,
 	    alt: 'Kelsee 9',
 	    src: '/kelsee-9.jpg',
 	},
 	{
-	    id: 10,
+	    id: 6,
 	    alt: 'Kelsee 10',
 	    src: '/kelsee-10.jpg',
 	},
 	{
-	    id: 11,
+	    id: 7,
 	    alt: 'Kelsee 11',
 	    src: '/kelsee-11.jpg',
 	}

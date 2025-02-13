@@ -1,5 +1,5 @@
-import type { Config } from "tailwindcss";
-import plugin from "tailwindcss/plugin";
+import type { Config } from 'tailwindcss'
+import plugin from 'tailwindcss/plugin'
 
 export default {
   content: [
@@ -19,6 +19,16 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      animation: {
+	scroll: "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+      },
+      keyframes: {
+	scroll: {
+	   to: {
+	      transform: "translate(calc(-50% - 0.5rem))"
+	   }
+	}
+      }
     },
   },
   plugins: [
@@ -37,5 +47,5 @@ export default {
 	},
       });
     }),
-  ],
+  ]
 } satisfies Config;
