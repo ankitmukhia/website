@@ -22,7 +22,7 @@ export const Location = () => {
 						alt="Sikkim"
 						fill
 						className="object-cover"
-						onLoadingComplete={() => setIsLoading(false)}
+						onLoad={() => setIsLoading(false)}
 					/>
 				</div>
 			</div>

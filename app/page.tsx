@@ -19,7 +19,7 @@ export default function Home() {
 	 />
          <div className="absolute left-0 top-0 xl:left-0 xl:top-2">
 	   <Image 
-	     src="/statistatocope-1-bg-remove.png" 
+	     src="/statistatocope-1.png" 
 	     alt="Hero Image" 
 	     width={200} 
 	     height={200} 
@@ -28,7 +28,7 @@ export default function Home() {
          </div>
          <div className="absolute right-[20%] top-[20%]">
 	   <Image 
-	     src="/statistatocope-3-bg-remove.png" 
+	     src="/statistatocope-3.png" 
 	     alt="Hero Image" 
 	     width={80} 
 	     height={80} 
@@ -37,7 +37,7 @@ export default function Home() {
          </div>
 	<div className="absolute right-[35%] top-[10%]">
 	 <Image 
-	   src="/pink-bottle.png"
+	   src="/bottle.png"
 	   alt="Hero Image"
 	   width={50}
 	   height={50}
@@ -55,7 +55,7 @@ export default function Home() {
          </div>
          <div className="absolute left-[35%] bottom-[20%]">
 	   <Image 
-	     src="/statistatocope-2-bg-remove.png" 
+	     src="/statistatocope-2.png" 
 	     alt="Hero Image" 
 	     width={80} 
 	     height={80} 

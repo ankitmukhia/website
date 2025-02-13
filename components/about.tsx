@@ -29,7 +29,7 @@ export const About = () => {
 	      alt="Profile" 
 	      fill
 	      className="object-fit rounded-full" 
-	      onLoadingComplete={() => setIsLoading(false)}
+	      onLoad={() => setIsLoading(false)}
 	    />
           </div>
         </section>
