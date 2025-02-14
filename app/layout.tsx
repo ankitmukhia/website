@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Sansita, Noto_Sans, Merriweather, Oswald, Great_Vibes } from 'next/font/google'
+import { Analytics } from "@vercel/analytics/react"
 import "./globals.css";
 
 const sansita = Sansita({
@@ -64,7 +65,8 @@ export default function RootLayout({
         </svg>
 
         {children}
-	 
+
+	<Analytics />
       </body>
     </html>
   );
