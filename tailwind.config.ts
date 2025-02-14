@@ -1,5 +1,5 @@
-import type { Config } from 'tailwindcss'
-import plugin from 'tailwindcss/plugin'
+import type { Config } from "tailwindcss";
+import plugin from "tailwindcss/plugin";
 
 export default {
   content: [
@@ -13,22 +13,27 @@ export default {
       noto: ["var(--font-noto)"],
       oswald: ["var(--font-oswald)"],
       weather: ["var(--font-marriweather)"],
+      greatVibes: ["var(--font-great-vibes)"],
     },
     extend: {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        lightpurple: "#F3BFFE",
+        lighterpurple: "#E4B8FF",
+        lightpink: "#CAA3FE",
       },
       animation: {
-	scroll: "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+        scroll:
+          "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
       },
       keyframes: {
-	scroll: {
-	   to: {
-	      transform: "translate(calc(-50% - 0.5rem))"
-	   }
-	}
-      }
+        scroll: {
+          to: {
+            transform: "translate(calc(-50% - 0.5rem))",
+          },
+        },
+      },
     },
   },
   plugins: [
@@ -43,9 +48,9 @@ export default {
 	    minmax(auto,${theme("spacing.60")}) /**** Max side padding *****/
 	    min(${theme("screens.lg")},100%) /**** Main content, max lg screen *****/
 	    minmax(auto,${theme("spacing.60")}) /***** Max side padding ******/
-	    1fr`, /**** Flexible right margin *****/
-	},
+	    1fr` /**** Flexible right margin *****/,
+        },
       });
     }),
-  ]
+  ],
 } satisfies Config;

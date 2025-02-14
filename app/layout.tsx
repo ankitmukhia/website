@@ -1,12 +1,17 @@
 import type { Metadata } from "next";
-import { Sansita, Noto_Sans, Merriweather, Oswald } from 'next/font/google'
+import { Sansita, Noto_Sans, Merriweather, Oswald, Great_Vibes } from 'next/font/google'
 import "./globals.css";
-import { Footer } from '../components/footer'
 
 const sansita = Sansita({
   weight: ["900"],
   subsets: ["latin"],
   variable: "--font-sansita",
+});
+
+const greatVibes = Great_Vibes({
+  weight: ["400"],
+  subsets: ["latin"],
+  variable: "--font-great-vibes",
 });
 
 const noto = Noto_Sans({
@@ -40,7 +45,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${sansita.variable} ${noto.variable} ${marriweather.variable} ${oswald.variable} antialiased`}
+        className={`${sansita.variable} ${noto.variable} ${marriweather.variable} ${oswald.variable} ${greatVibes.variable} antialiased`}
       >
         <svg
           className="pointer-events-none fixed isolate z-50 opacity-70 mix-blend-soft-light"
@@ -58,13 +63,8 @@ export default function RootLayout({
           <rect width="100%" height="100%" filter="url(#noise)" />
         </svg>
 
-        <div className="layout-sm relative z-10 grid gap-y-8 px-4 xl:layout-xl xl:gap-x-8 xl:px-0 [&>*]:col-start-2 xl:[&>*]:col-start-3">
-         {children}
-
-	 <div className="mt-6 mb-4 text-center">
-	  <Footer />
-	 </div>
-	</div>
+        {children}
+	 
       </body>
     </html>
   );

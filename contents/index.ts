@@ -41,3 +41,14 @@ export const allImgVids: ImgVid[] = [
 	    src: '/kelsee-11.jpg',
 	}
 ]
+
+export const grass: string[] = [
+	'/grass-1.png',
+	'/grass-2.png',
+	'/grass-3.png',
+	'/grass-4.png',
+	'/grass-5.png',
+	'/grass-6.png',
+	'/dry-rose.png'
+]
+

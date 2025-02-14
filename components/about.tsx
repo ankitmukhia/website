@@ -9,7 +9,7 @@ export const About = () => {
 
 	return (
 	<>
-	<div className="absolute top-[7%] sm:top-[240px] xl:top-[463px]">
+	<div className="absolute top-[12rem] sm:top-[270px] xl:top-[480px]">
 	  <Image
 		src="/monkey-1.png"
 		alt="Hero Image"

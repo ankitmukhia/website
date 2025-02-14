@@ -5,12 +5,13 @@ import { Location } from '@/components/location'
 import { About } from '@/components/about'
 import { InfiniteCarousel } from '@/components/infinite-carousel' 
 import { HeartIcon } from '@heroicons/react/24/solid'
+import { Footer } from '@/components/footer'
 
 // crypto monkey as well 
 
 export default function Home() {
   return (
-    <div> 
+    <div className="layout-sm relative z-10 grid gap-y-8 px-4 xl:layout-xl xl:gap-x-8 xl:px-0 [&>*]:col-start-2 xl:[&>*]:col-start-3"> 
       <div className="relative w-full max-w-screen-lg mx-auto">
 	 <Image 
 	   src="/hero.png" 
@@ -80,7 +81,7 @@ export default function Home() {
       </div>
 
       <>
-      <div className="absolute bottom-[505px] right-10 sm:right-[200px] sm:bottom-[536px] xl:bottom-[490px] xl:right-[500px]">
+      <div className="absolute bottom-[510px] right-10 sm:right-[200px] sm:bottom-[536px] xl:bottom-[490px] xl:right-[500px]">
       	<Image
       	  src="/monkey-4.png"
       	  alt="Hero Image"
@@ -89,19 +90,19 @@ export default function Home() {
           className="-scale-x-100 w-[80px] h-[80px] sm:w-[100px] sm:h-[100px] xl:w-[150px] xl:h-[150px]"
       />
       </div>
-      <div className="absolute bottom-[20%] right-[40%] sm:bottom-[22%] xl:bottom-[24%] xl:right-[40%]">
+      <div className="absolute bottom-[20%] right-[40%] sm:bottom-[22%] xl:bottom-[24%] xl:right-[50%]">
         <HeartIcon 
 	  className="h-5 w-5 text-rose-500/90"
         />
       </div>
 
-      <div className="absolute bottom-[465px] right-[100px] sm:bottom-[550px] sm:right-[300px] xl:bottom-[500px] xl:right-[36%]">
+      <div className="absolute bottom-[465px] right-[100px] sm:bottom-[550px] sm:right-[300px] xl:bottom-[500px] xl:right-[44%]">
         <HeartIcon 
 	  className="h-5 w-5 text-rose-500/80"
         />
       </div>
 
-      <div className="absolute bottom-[21%] right-28 sm:bottom-[22%] sm:right-[30%] xl:bottom-[26%] xl:right-[35%]">
+      <div className="absolute bottom-[21%] right-28 sm:bottom-[22%] sm:right-[30%] xl:bottom-[26%] xl:right-[44%]">
         <HeartIcon 
 	  className="h-5 w-5 text-rose-500/90"
         />
@@ -116,6 +117,8 @@ export default function Home() {
 	  </div>
        </section>
       </>
+
+      <Footer />
     </div>
   );
 }

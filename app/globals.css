@@ -13,3 +13,9 @@ body {
   background: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@theme {
+  --color-purple: #CAA3FE;
+  --color-light-purple: #DFBBFF;
+  --color-pink: #F3BFFE;
+}
