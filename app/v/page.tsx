@@ -56,7 +56,7 @@ export default function Page() {
 						alt="Kelsee"
 						width={100}
 						height={100}
-						className="-rotate-[20deg] w-14 h-14 sm:w-[6rem] sm:h-[10rem] xl:w-[6rem] xl:h-[10rem]"
+						className="-rotate-[20deg] w-14 h-20 sm:w-[6rem] sm:h-[10rem] xl:w-[6rem] xl:h-[10rem]"
 					/>
 				</div>
 				<div className="absolute top-[50%] right-4 z-10">
@@ -65,7 +65,7 @@ export default function Page() {
 						alt="Kelsee"
 						width={100}
 						height={100}
-						className="rotate-[30deg] w-14 h-14 sm:w-[6rem] sm:h-[10rem] xl:w-[6rem] xl:h-[10rem]"
+						className="rotate-[30deg] w-14 h-20 sm:w-[6rem] sm:h-[10rem] xl:w-[6rem] xl:h-[10rem]"
 					/>
 				</div>
 				<div className="absolute bottom-0 left-[6%] z-10">
@@ -74,7 +74,7 @@ export default function Page() {
 						alt="Kelsee"
 						width={150}
 						height={150}
-						className="-rotate-[50deg] w-14 h-14 sm:w-[8rem] sm:h-[10rem] xl:w-[8rem] xl:h-[10rem]"
+						className="-rotate-[50deg] w-14 h-16 sm:w-[8rem] sm:h-[10rem] xl:w-[8rem] xl:h-[10rem]"
 					/>
 				</div>
 				<div className="relative">
