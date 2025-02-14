@@ -81,7 +81,7 @@ export default function Home() {
       </div>
 
       <>
-      <div className="absolute bottom-[510px] right-10 sm:right-[200px] sm:bottom-[536px] xl:bottom-[490px] xl:right-[500px]">
+      <div className="absolute bottom-[510px] right-10 sm:right-[24%] sm:bottom-[20%] xl:bottom-[490px] xl:right-[500px]">
       	<Image
       	  src="/monkey-4.png"
       	  alt="Hero Image"
@@ -90,24 +90,24 @@ export default function Home() {
           className="-scale-x-100 w-[80px] h-[80px] sm:w-[100px] sm:h-[100px] xl:w-[150px] xl:h-[150px]"
       />
       </div>
-      <div className="absolute bottom-[20%] right-[40%] sm:bottom-[22%] xl:bottom-[24%] xl:right-[50%]">
+      <div className="absolute bottom-[18%] right-[38%] sm:bottom-[20%] sm:right-[40%] xl:bottom-[23%] xl:right-[50%]">
         <HeartIcon 
 	  className="h-5 w-5 text-rose-500/90"
         />
       </div>
 
-      <div className="absolute bottom-[465px] right-[100px] sm:bottom-[550px] sm:right-[300px] xl:bottom-[500px] xl:right-[44%]">
+      <div className="absolute bottom-[19%] right-[100px] sm:bottom-[19%] sm:right-[36%] xl:bottom-[500px] xl:right-[44%]">
         <HeartIcon 
 	  className="h-5 w-5 text-rose-500/80"
         />
       </div>
 
-      <div className="absolute bottom-[21%] right-28 sm:bottom-[22%] sm:right-[30%] xl:bottom-[26%] xl:right-[44%]">
+      <div className="absolute bottom-[17%] right-28 sm:bottom-[21%] sm:right-[34%] xl:bottom-[25%] xl:right-[44%]">
         <HeartIcon 
 	  className="h-5 w-5 text-rose-500/90"
         />
       </div>
-       <section className="xl:relative bg-[#F0F0D7] mt-12 rounded-[45px] p-6 md:p-8">
+       <section className="xl:relative xl:z-10 bg-[#F0F0D7] mt-12 rounded-[45px] p-6 md:p-8">
 	  <div className="space-y-4 overflow-hidden">
 	   <h2 className="text-4xl md:text-5xl mb-8 font-sansita flex items-center gap-2">
 	     Here are some of my Pictures 

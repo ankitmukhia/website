@@ -5,6 +5,7 @@ import Balancer from 'react-wrap-balancer'
 import Image from 'next/image'
 import { grass } from '@/contents/index'
 import { Snowfall } from 'react-snowfall'
+import { AudioPlayer } from '@/components/audio-player'
 import clsx from 'clsx'
 
 const title = "Happy Valentine's Day"
@@ -25,12 +26,13 @@ export default function Page() {
 	}, [])
 
 	return (
-		<div className="relative flex items-center justify-center h-screen pointer-events-none bg-gradient-to-t from-lightpurple via-lighterpurple to-lightpink">
+		<div className="relative flex items-center justify-center h-screen bg-gradient-to-t from-lightpurple via-lighterpurple to-lightpink">
 			<Snowfall
 				images={images}
 				radius={[0.5, 26.0]}
 				snowflakeCount={100}
 			/>
+			<AudioPlayer />
 			{grass.map((item, _idx) => (
 				<div
 					key={_idx}
