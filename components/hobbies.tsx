@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import { FaInstagram } from 'react-icons/fa'
 import { SlSocialYoutube } from 'react-icons/sl'
-import { HeartIcon } from '@heroicons/react/24/solid'
+// import { HeartIcon } from '@heroicons/react/24/solid'
 
 import Link from 'next/link'
 
