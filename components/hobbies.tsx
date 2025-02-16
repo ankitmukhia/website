@@ -16,7 +16,7 @@ interface SocialLink {
 export const socialLinks: SocialLink[] = [
 	{ name: 'Youtube', href: 'https://www.youtube.com/@kelseedolma', icon: <SlSocialYoutube size={30} color="white" /> },
 	{ name: 'Instagram', href: 'https://www.instagram.com/kel.dolma/', icon: <FaInstagram size={30} color="white" /> },
-	{/** { name: 'Valentine Day', href: '/v', icon: <HeartIcon className="w-8 h-8 text-rose-400/50" /> } **/}
+	/** { name: 'Valentine Day', href: '/v', icon: <HeartIcon className="w-8 h-8 text-rose-400/50" /> } **/
 ]
 
 export const Hobbies = () => {
